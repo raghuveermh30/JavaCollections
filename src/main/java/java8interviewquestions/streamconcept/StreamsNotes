@@ -1,0 +1,33 @@
+Java Stream --Filter
+-------------------
+
+Collection: to represent the group of data/objects as Single Entity
+Stream: to process the data from collection we use stream concept
+
+Java Stream -- Map
+----------
+Map is an intermediate operations
+Mapping the collection from one object to another.
+Here, collections size will not be reduced, just we are mapping from one form to another
+Map is transform the data from source and we can get into Target
+Map will do transform the objects and result will be stored in the Target
+Map will return a Single object from the stream
+Map is performing One to One Operation
+
+FlatMap Concept
+--------------
+FlatMap will be applied in the complex collection example
+FlatMap will return another Stream and we can collect them in one Collection
+It will return to stream of objects
+Flatmap will return a Group of object from the stream
+FlatMap is performing One to Many Operations
+
+Java 8 methods
+---------------
+filter(), map(), flatMap(), distinct(), limit()
+the above methods are also called Non-Terminal Operations
+
+collect(), count(), min(), max(), forEach(), toArray()
+the above methods are also called Terminal Operations
+
+Collections --> Stream --> Non Terminal Operations --> Terminal Operations
