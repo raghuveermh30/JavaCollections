@@ -6,10 +6,10 @@ public class DataConvert {
 
     public static void main(String[] args) {
 
-        /**
+        /*
          * Wrapper Class --> conversion of Data Members
          * All the Wrapper classes are Immutable
-         * Whenever we are comparing non primitive then we need to use equals method
+         * Whenever we are comparing non-primitive then we need to use equals method
          * == will be used for primitive data type
          * No Need to create the constructor for wrapper class from Java 9
          * All the wrapper classes are final in nature
@@ -104,7 +104,9 @@ public class DataConvert {
         System.out.println(v1); //100
 
         String rest = "I love \"Java\" code and \"selenium\" programming"; //I love "java" code
+        String rest1 = "I love \"Java\" code and \"Selenium\" Programming";
         System.out.println(rest);
+        System.out.println(rest1);
 
         String xpath = "//input[@name=\"naveen\"]";
         System.out.println(xpath);
@@ -123,7 +125,7 @@ public class DataConvert {
 
         String p1 = "testing";
         String p2 = "testing";
-        System.out.println(p2.compareTo(p1)); // This will give the actually Integer
+        System.out.println("Compare Function in String : " +p2.compareTo(p1)); // This will give the actually Integer
 
         int l1 = 07; //Octal Number
         System.out.println(l1);

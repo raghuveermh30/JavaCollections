@@ -3,15 +3,15 @@ package abstraction;
 public abstract class Page {
 
     /**
-     * Abstarct class, we can have both abstract and non abstarct class
+     * Abstract class, we can have both abstract and non abstract class
      * In Abstract class it is not mandatory to have abstract and non abstract methods
      * In Abstract class, we can have 0-100% abstraction is allowed
-     * In abstarction, we can have partial abstraction as well
+     * In abstraction, we can have partial abstraction as well
      * Cannot create the Object of Abstract class
      * But we can create the constructor of Abstract class - This is allowed
      * But this will be called when we create the object of  child class
      * In constructor, first Parent class and child class constructor can be called
-     * The Preferance will be always given to Parent class then child class constructor will be called
+     * The preference will be always given to Parent class then child class constructor will be called
      */
 
     //This is mandatory to define the default class constructor

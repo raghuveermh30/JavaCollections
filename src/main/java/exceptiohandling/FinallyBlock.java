@@ -2,7 +2,7 @@ package exceptiohandling;
 
 public class FinallyBlock {
 
-    /**
+    /*
      * Even Exception is coming or not, it will always execute
      * finally block should be always with try-catch or try block should be there
      * Try will be always looking for finally block

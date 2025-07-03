@@ -8,8 +8,8 @@ import java.util.concurrent.CopyOnWriteArrayList;
 
 public class SyncronizedArrayList {
 
-    /**
-     * How to syncronize the ArrayList in the Java
+    /*
+     * How to synchronize the ArrayList in the Java
      * <p>
      * There are 2 ways we can create the Syncronized Array List
      * <p>

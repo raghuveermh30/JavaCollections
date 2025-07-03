@@ -117,7 +117,7 @@ public class Product {
         private boolean freeShipping;
         private int stock;
 
-        //public Constructor of the builder for required fileds
+        //public Constructor of the builder for required fields
 
         public ProductBuilder(String name, double price) {
             this.name = name;
@@ -125,8 +125,6 @@ public class Product {
         }
 
         //Generate the setters for the optional fields
-
-
         public ProductBuilder setDescription(String description) {
             this.description = description;
             return this;

@@ -9,7 +9,7 @@ public class HashSetConcepts {
 
     public static void main(String[] args) {
 
-        /**
+        /*
          * It doesn't allow any insertion order
          * it wont; allow the duplicate values
          *

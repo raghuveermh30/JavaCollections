@@ -6,7 +6,7 @@ public class LargestAndSmallestNumber {
 
 	public static void main(String[] args) {
 
-		int numbers[] = { 10, 20, 24, 5, 6, 8 };
+		int numbers[] = { 10, 20, 24, 24, 5, 6, 8 };
 
 		// int numbers[] = {-10,5};
 
@@ -27,8 +27,8 @@ public class LargestAndSmallestNumber {
 			}
 		}
 
-		System.out.println("Largest number is" + largest);
-		System.out.println("smallest number is" + smallest);
+		System.out.println("Largest number is " + largest);
+		System.out.println("smallest number is " + smallest);
 
 	}
 

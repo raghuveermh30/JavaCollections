@@ -4,7 +4,7 @@ public class TestCar {
 
     public static void main(String[] args) {
 
-        /**
+        /*
          * Child class method will be called
          * MethodOverriding - when we have method in the parent class and same method in the child class with the
          * 1. same name
@@ -74,8 +74,8 @@ public class TestCar {
 
         System.out.println("**************");
 
-        /**
-         * Child class object can be reffered by Parent class reference Variable
+        /*
+         * Child class object can be referred by Parent class reference Variable
          * This Concept is called TopCasting or UpCasting
          * with the TopCasting, We can access all the overridden and inherritted methods will be accessable but cannot access the indivudual methods
          * This is also called Is-A relationship
@@ -95,7 +95,7 @@ public class TestCar {
         c3.stop();
         c3.refuel();
 
-        /**
+        /*
          * Parent class object can be reffered by the child class refrence variable
          * This concept is called DownCasting
          * But when we run the Downcasting object then it will give ClassCastException.
@@ -108,8 +108,8 @@ public class TestCar {
 
         System.out.println("**************");
 
-        /**
-         * Child class object is reffered by grand parent object reference variable.
+        /*
+         * Child class object is referred by grand parent object reference variable.
          * This is called Is-A relationship
          */
 

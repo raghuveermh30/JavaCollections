@@ -38,7 +38,7 @@ public class StringReverse {
         System.out.println(reverse("null"));
         System.out.println(reverse("testing "));
 
-        /**
+        /*
          * This login is only for interview purpose, in the real time we won;t use.
          *
          */

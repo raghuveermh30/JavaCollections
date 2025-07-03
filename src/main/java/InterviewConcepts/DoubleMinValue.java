@@ -7,8 +7,6 @@ public class DoubleMinValue {
       /*  What is the value of Double MIN_Value ?
                 Which one is the bigger ->Double Min_Value or 0.0d ?
                 Which is the bigger -> Double Min_Value or Negative_Infinity ?
-
-
 */
         int i=10;
         i=20;

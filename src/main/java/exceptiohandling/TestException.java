@@ -24,7 +24,7 @@ public class TestException {
             throw new RuntimeException(e);
         }
 
-        /**
+        /*
          * Compile Time Exception are also known as Checked Exception
          * Run Time Exceptions are also known as Unchecked Exception
          * 90% cases we will get the Run Time exception

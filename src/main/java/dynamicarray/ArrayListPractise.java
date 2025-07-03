@@ -94,7 +94,7 @@ public class ArrayListPractise {
         footerList.add(0, "Naveen");
         System.out.println("Updated value on the 0th position " + footerList.get(0)); //Here we are loosing the data on the 0th postion
 
-        footerList.set(0, "Testing"); // this will not replace the existing value instead of this it will add the element in 0th position and rest elements wil shiift
+        footerList.set(0, "Testing"); // this will not replace the existing value instead of this it will add the element in 0th position and rest elements wil shift
         System.out.println("Updated value on the 0th position " + footerList.get(0)); //Testing
         System.out.println(footerList.get(1)); //Naveen
 

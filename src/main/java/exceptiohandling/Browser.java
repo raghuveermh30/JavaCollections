@@ -2,7 +2,7 @@ package exceptiohandling;
 
 public class Browser {
 
-    /**
+    /*
      * Throws keyword is not handling in the Exception
      * It just throws the exception in the method
      * Never add the try-catch block in the main method

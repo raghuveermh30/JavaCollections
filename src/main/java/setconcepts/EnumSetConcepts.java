@@ -5,7 +5,7 @@ import java.util.Iterator;
 
 public class EnumSetConcepts {
 
-    /**
+    /*
      * Its not synchronized
      * Its highly performance java collection member
      * faster than HashSet

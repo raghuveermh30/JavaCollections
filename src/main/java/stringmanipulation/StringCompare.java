@@ -4,7 +4,7 @@ public class StringCompare {
 
     public static void main(String[] args) {
 
-        /**
+        /*
          * s1.equals(s2) --> this will check only the content
          * s1 == s2 --> this will check the reference
          *
@@ -26,7 +26,7 @@ public class StringCompare {
         String str = new String("testing");
 
 
-        /**
+        /*
          *  This will create the 2 objects one is in Heap and one is in SCP location but the refernce will be in Heap memory
          *  String is the most common data type will be used in the application. Hence spl features has given.
          *  In the application, most of the features will be declared in the String.

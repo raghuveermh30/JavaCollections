@@ -41,7 +41,7 @@ public interface USMedical extends WHO{
 
 
 
-    /**
+    /*
      * Can i have a method with body? YES
      * After JDK 1.8, its allowed
      * In the interface, we need to have only static methods are allowed
@@ -50,7 +50,7 @@ public interface USMedical extends WHO{
         System.out.println("US Medical Billing");
     }
 
-    /**
+    /*
      * Second Change
      * Can have non-static method with the method body but it should written default keyword
      * <p>

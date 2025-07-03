@@ -8,7 +8,7 @@ public class LinkedListMethods {
 
     public static void main(String[] args) {
 
-        /**
+        /*
          * It is the default class in the Java
          * It can be used as List, stack and Queue as well as it implements List and Queue
          * It allows null values
@@ -73,7 +73,7 @@ public class LinkedListMethods {
         langList.add("JS");
         System.out.println(langList.size());
 
-        //Revere the Linked List
+        //Reverse the Linked List
         Iterator<String> itr = langList.descendingIterator();
         while (itr.hasNext()){
             System.out.println(itr.next());

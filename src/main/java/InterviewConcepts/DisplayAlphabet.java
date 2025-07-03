@@ -6,8 +6,5 @@ public class DisplayAlphabet {
         for(char c = 'A'; c<='Z';c++){
             System.out.println(c+ " ");
         }
-        
-        
-        
     }
 }

@@ -15,6 +15,7 @@ public class SecondLargest {
 
         Arrays.sort(arr);
         System.out.println(Arrays.toString(arr));
+        //[1, 1, 10, 12, 34, 35]
 
         // Start from second last element as the largest element is at last
         for (int i = size - 2; i >= 0; i--)

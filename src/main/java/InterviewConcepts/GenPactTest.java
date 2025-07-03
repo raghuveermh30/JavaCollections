@@ -37,22 +37,24 @@ public class GenPactTest {
         }
 
         String value = "";
-
+        Character key = null;
         Set<String> set = new HashSet<String>();
         Iterator<Character> it = map.keySet().iterator();
         while (it.hasNext()) {
-            Character key = it.next();
+            key = it.next();
             value = map.get(key).toString();
-            //System.out.println(key + " " +value);
             set.add(value);
+            System.out.println(key + " " + value);
         }
+
+        System.out.println("duplicates values are in the map " + set);
 
         ArrayList<String> al = new ArrayList<String>(set);
         Collections.sort(al);
         //  System.out.println(al);
 
         String val1 = al.get(al.size() - 2);
-         System.out.println("Second Highes value " +val1);
+        System.out.println("Second Highes value " + val1);
         Iterator<Character> it2 = map.keySet().iterator();
-           }
+    }
 }

@@ -8,7 +8,7 @@ public class Car {
     private String chasisNum;
 
     /**
-     * There is no private class but we can create the priavte, public and protected constructor
+     * There is no private class but we can create the private, public and protected constructor
      * <p>
      * Protected method also can be overridden
      *

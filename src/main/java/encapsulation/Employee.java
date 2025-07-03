@@ -9,14 +9,14 @@ public class Employee {
     private double empId;
 
 
-    /**
+    /*
      * Encapsulation means hiding the data members using private keyword and giving the access on Public layer
      * private method are cannot accessable outside the class variables
      * public data members and local variables can be accessable using another class
      * To Hide the data members we need to use private keyword and we can access the public method written in the class
      * public methods --> getter and setter
      * It is not mandatory to give setter value, but for update action, we need to use the setter
-     * Encapsulation can be achived for Methods as well, Refer Browser class
+     * Encapsulation can be achieved for Methods as well, Refer Browser class
      */
 
     // public constructor is also like a setter

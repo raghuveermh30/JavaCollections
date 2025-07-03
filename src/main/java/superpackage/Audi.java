@@ -2,7 +2,7 @@ package superpackage;
 
 public class Audi extends Car {
 
-    /**
+    /*
      * Super should be always first statement when we are calling the Constructor
      * Super Keyword will be used for Parent Class Constructor
      * We cannot call the Parent class constructor 2 times
@@ -18,7 +18,7 @@ public class Audi extends Car {
      * If we have parent as interface then better to avoid super keyword
      */
 
-    /**
+    /*
      * THIS Keyword
      * this keyword is used to initialise the class/global variables
      * can be used for methods or Constructor

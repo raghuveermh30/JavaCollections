@@ -6,7 +6,7 @@ public class FunctionInterfaceConcept {
 
     public static void main(String[] args) {
 
-        /**
+        /*
          * Interface Function<T,R>
          * Type Parameters:
          * T - the type of the input to the function

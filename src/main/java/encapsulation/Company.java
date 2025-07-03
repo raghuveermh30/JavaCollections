@@ -10,7 +10,7 @@ public class Company {
         System.out.println("Get Revenue");
     }
 
-    /**
+    /*
      * Here no one can access the getRevenue using object but if we make static then we can access
      * Example is System class, All the methods are static in nature
      */

@@ -2,7 +2,7 @@ package exceptiohandling;
 
 public class ThrowKeyword {
 
-    /**
+    /*
      * Throw keyword means we can define the custom Exception
      * We can define the custom Exception using Throw keyword
      * Throw new cannot be called using try-catch block

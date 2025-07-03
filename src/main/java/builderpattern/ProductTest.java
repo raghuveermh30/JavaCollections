@@ -16,7 +16,7 @@ public class ProductTest {
 
         product2.setDiscount(5);
         System.out.println(product2);
-        System.out.println(product2.getName());
+//        System.out.println(product2.getName());
         System.out.println(product2.getCategory());
 
         // Use Case3 :

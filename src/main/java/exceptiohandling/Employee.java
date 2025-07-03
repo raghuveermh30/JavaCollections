@@ -6,8 +6,8 @@ public class Employee {
 
     public static void main(String[] args) {
 
-        /**
-         * Exception means suddently my code is terminated due to that my Program is terminated and I cannot proceed with further
+        /*
+         * Exception means suddenly my code is terminated due to that my Program is terminated and I cannot proceed with further
          * Try and Catch are both together
          * Try can be written along with finally keyword
          * When any exception is coming then immideatly it will go to catch block

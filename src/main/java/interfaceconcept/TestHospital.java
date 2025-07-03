@@ -19,23 +19,26 @@ public class TestHospital {
         System.out.println(FortisHospital.MIN_FEE); //50
         usMedical.covidVaccination();
 
+        //Top casting
         UKMedical ukMedical = new FortisHospital();
         ukMedical.dermaServices();
         ukMedical.emergencyServices();
         ukMedical.entServices();
         ukMedical.pediaServices();
 
+        //Top casting
         IndiaMedical indiaMedical = new FortisHospital();
         indiaMedical.cardioServices();
         indiaMedical.nuroServices();
         indiaMedical.emergencyServices();
         indiaMedical.orthoServices();
 
-
     }
 
     private static FortisHospital getFortisHospital() {
         FortisHospital fortisHospital = new FortisHospital();
+        //Creating the object of the class FortisHospital
+        //Calling the methods of FortisHospital
         fortisHospital.cardioServices();
         fortisHospital.dentalServices();
         fortisHospital.nuroServices();

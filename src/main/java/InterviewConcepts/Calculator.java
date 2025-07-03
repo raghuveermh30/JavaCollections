@@ -9,7 +9,7 @@ public class Calculator {
         System.out.println("Enter two Numbers");
         double first = sc.nextDouble();
         double second = sc.nextDouble();
-        System.out.println("Please ENter the operator (+, -, *, / ");
+        System.out.println("Please Enter the operator (+, -, *, / ");
 
         char operator = sc.next().charAt(0);
 

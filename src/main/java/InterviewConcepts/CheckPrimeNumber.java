@@ -23,6 +23,10 @@ public class CheckPrimeNumber {
             System.out.println(num + "Cannot be Expressed as the Sum of 2 Prime Numbers");
         }
 
+
+        System.out.println("**********************************");
+
+        System.out.println(checkPrimeNum(7));
     }
 
     public static boolean checkPrimeNum(int n){

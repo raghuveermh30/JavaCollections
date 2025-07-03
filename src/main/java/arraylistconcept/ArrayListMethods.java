@@ -20,7 +20,7 @@ public class ArrayListMethods {
         ar2.add("devops");
 
         //addAll();
-        //  ar1.addAll(ar2);
+        // ar1.addAll(ar2);
         System.out.println(ar1);
 
         //  ar1.addAll(2, ar2); //after the Index, the array will be adding
