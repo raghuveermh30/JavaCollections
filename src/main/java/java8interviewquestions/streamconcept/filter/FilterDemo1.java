@@ -24,7 +24,7 @@ public class FilterDemo1 {
         integersList.stream().filter(e -> e % 2 == 0).forEach(s -> System.out.println(s));
         System.out.println("******************");
 
-        ////Example 2- In the below list, names should be > 5
+        //Example 2- In the below list, names should be > 3 characters and < 6 characters
 
         List<String> stringList1 = Arrays.asList("Tom", "peter", "steve", "Naveen", "Vibha", "Veena", "Raghu");
         List<String> longNamesList = new ArrayList<>();

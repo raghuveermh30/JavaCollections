@@ -2,7 +2,6 @@ package java8interviewquestions;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.OptionalDouble;
 
 public class AverageOfNumbers {
 

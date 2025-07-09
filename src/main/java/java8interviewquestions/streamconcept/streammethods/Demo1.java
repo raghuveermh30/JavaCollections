@@ -43,19 +43,19 @@ public class Demo1 {
 
         List<Integer> oddNumList = integersList.stream().filter(n -> n % 2 != 0).collect(Collectors.toList());
         oddNumList.forEach(s -> System.out.println(s));
-        System.out.println("Even number count are in the list is " + oddNumList.stream().count());
+        System.out.println("Odd number count are in the list is " + oddNumList.stream().count());
         System.out.println("*******************");
 
         //min()
         int minValue = integersList.stream().min((val1, val2) -> val1.compareTo(val2)).get();
-        System.out.println(minValue);
+        System.out.println("Minimum Value : "+minValue);
 
         //max()
         int maxValue = integersList.stream().max((val1, val2) -> val1.compareTo(val2)).get();
-        System.out.println(maxValue);
+        System.out.println("Maximum Value : "+maxValue);
         System.out.println("*******************");
 
-        //reduce()
+        //reduce() -> reduce() operation in Streams is used to combine elements of a stream into a single result by applying a binary operation
         List<String> stringList = Arrays.asList("A", "a", "B", "b", "c", "d", "12", "1", "2", "3");
         Optional<String> reduced = stringList.stream().reduce((value, combinedValue) -> combinedValue + value);
         String reducuedString = reduced.get();
