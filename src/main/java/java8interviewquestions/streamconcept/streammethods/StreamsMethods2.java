@@ -66,7 +66,7 @@ public class StreamsMethods2 {
     }
 }
 
-public class Person {
+class Person {
     String name;
     int age;
 
