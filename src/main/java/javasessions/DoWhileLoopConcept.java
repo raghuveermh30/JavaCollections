@@ -4,9 +4,12 @@ public class DoWhileLoopConcept {
 
     public static void main(String[] args) {
 
-        /**
-         *
-         *
+        /*
+         * Do-While Loop
+         * 1. The do-while loop is a control flow statement that executes a block of code at least once,
+         *    and then repeats the execution as long as a specified condition evaluates to true.
+         * 2. The key difference between a while loop and a do-while loop is that the do-while loop guarantees
+         *    that the code block will be executed at least once, even if the condition is false on the first check.
          */
 
         // 1 - 10
@@ -18,7 +21,7 @@ public class DoWhileLoopConcept {
         while (i <= 10);
 
         System.out.println("*********");
-        /**
+        /*
          *  Use-Cases of Do-While Loop
          *  Wait for the Element
          *  In the Do while loop there is no body

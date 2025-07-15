@@ -14,7 +14,7 @@ public class CallByRef {
         System.out.println(p1.name); //Naveen
         System.out.println(p1.age); //20
 
-        /**
+        /*
          * p1 =obj --> Here p1 and obj are 2 references are pointing to one single object.
          * This is called Call By Reference
          *
@@ -44,7 +44,7 @@ public class CallByRef {
         System.out.println(obj.age);
 
 
-        /**
+        /*
          * UseCases of CallByReference
          * We will be using in the POM
          * The main adv of CallByReference is to avoid creation of unnecessary objects in the class

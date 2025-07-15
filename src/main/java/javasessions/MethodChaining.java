@@ -38,7 +38,7 @@ public class MethodChaining {
         obj1.m4();
     }
 
-    /**
+    /*
      * Non-Static Method --> Non-Static Method --> Direct Calling (No Object Required due to they are in same Memory)
      * Static Method --> static Method --> Direct calling/use class name
      * Non-Static Method --> Static Method --> Direct calling/use class name

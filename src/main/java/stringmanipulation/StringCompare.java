@@ -42,7 +42,7 @@ public class StringCompare {
         System.out.println(t1); //hello -> reason is Strings are immutable
 
 
-        /**
+        /*
          * Strings are immutable. Once Strings are created it cannot be changed
          *
          *

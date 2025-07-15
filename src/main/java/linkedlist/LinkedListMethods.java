@@ -36,6 +36,7 @@ public class LinkedListMethods {
         }
 
         namesList.add(2, "ABC");
+        System.out.println(namesList);
         System.out.println(namesList.get(2));
         System.out.println(namesList);
 

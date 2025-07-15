@@ -4,11 +4,10 @@ public class StringConcatination {
 
     public static void main(String[] args) {
 
-        /**
+        /*
          * String is a Class, Its a non-premetive data type
          * String is a default class
-         *
-         *
+         * String is a sequence of characters
          */
 
         String name = "Naveen";

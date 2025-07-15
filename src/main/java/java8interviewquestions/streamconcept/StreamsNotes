@@ -31,3 +31,5 @@ collect(), count(), min(), max(), forEach(), toArray()
 the above methods are also called Terminal Operations
 
 Collections --> Stream --> Non Terminal Operations --> Terminal Operations
+
+11250251501100

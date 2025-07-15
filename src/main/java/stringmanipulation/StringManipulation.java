@@ -121,7 +121,7 @@ public class StringManipulation {
         String d[] = new String[2];
         d[0] = "test";
         d[1] = "pop";
-        System.out.println(d[2]); //It will give AIOB
+       // System.out.println(d[2]); //It will give AIOB
 
         
 

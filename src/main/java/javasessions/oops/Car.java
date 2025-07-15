@@ -54,7 +54,7 @@ public class Car {
         //  System.out.println(c1.wheels);//This is possible, but it will give warning, that Static variables should be access in the static way
 
 
-        /**
+        /*
          * Examples of Final and static
          * Logo or Image will always Constant
          * Footer Links will be always constant

@@ -17,7 +17,7 @@ public class TypeCastingConcept {
 
         // Byte can store upto 127 and we are loosing the data here
 
-        /**
+        /*
          * There are 2 types of TypeCasting
          *
          * 1. Widening --> Converting the lower data type into higher data type is called widening

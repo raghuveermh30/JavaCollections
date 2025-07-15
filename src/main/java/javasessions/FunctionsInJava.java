@@ -2,7 +2,7 @@ package javasessions;
 
 public class FunctionsInJava {
 
-    /**
+    /*
      * Functions/Method in Java
      * Main is the starting point of the code. JVM will look the main Method and it will always go inside the main method
      *
@@ -16,7 +16,7 @@ public class FunctionsInJava {
      * cannot create function inside the function but i can call the function inside the function
      */
 
-    /**
+    /*
      * class data members:
      * 1. class variables - static and non static
      * 2. class methods -static and non static
@@ -66,8 +66,8 @@ public class FunctionsInJava {
     //4. some input and return
     public int sum(int a, int b, int c) {
         System.out.println("Addition of 3 numbers");
-        int sum = a + b + c;
-        return sum;
+        return  a + b + c;
+
     }
 
 

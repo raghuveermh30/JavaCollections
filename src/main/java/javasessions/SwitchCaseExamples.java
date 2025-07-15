@@ -35,7 +35,7 @@ public class SwitchCaseExamples {
                 System.out.println("Please provide the correct.." + browser);
         }
 
-        /**
+        /*
          * Here, suppose if the browser value is given as Edge, then the compiler will directly jump to Edge case.
          * Suppose if we give opera then also the compiler will go to default.
          * Compiler has already compiled the case values then it will reach the direct jump for case level
@@ -56,7 +56,7 @@ public class SwitchCaseExamples {
                 break;
         }
 
-        /**
+        /*
          * Here the problem is i need to maintain the 100 case, in this case i can go with te if else loop
          * For numbers better if-else will be good apprach
          * Condition cannot be a boolean value
@@ -87,7 +87,7 @@ public class SwitchCaseExamples {
                 break;
         }
 
-        /**
+        /*
          * Uses of switch case
          *
          * 1. Cross browser Logic

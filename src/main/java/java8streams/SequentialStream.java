@@ -8,7 +8,7 @@ public class SequentialStream {
 
     public static void main(String[] args) {
 
-        /**
+        /*
          * Once stream is used and closed,then we cannot be used the same stream again, we will get IllegalException
          *
          */

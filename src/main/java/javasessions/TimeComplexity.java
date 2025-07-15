@@ -15,7 +15,7 @@ public class TimeComplexity {
             System.out.println(p); // 1 to 10
         }
 
-        /**
+        /*
          *  How to calculate the Time Complexity
          *  1+n+n+n  --> n could be 10, 20, 30...
          * 3n+1 --> Linear Equation
@@ -30,7 +30,7 @@ public class TimeComplexity {
             i++;
         }
 
-        /**
+        /*
          * 3n+1 --> 3n --> n
          * TC for while loop is Big O(n)
          * Same for do while loop as well
@@ -43,7 +43,7 @@ public class TimeComplexity {
             System.out.println();
         }
 
-        /**
+        /*
          * (1+n+n+n) -->Outer loop
          * (1+n+n+n) --> Inner Loop
          * (1+3n) (1+3n) --> 9n^2 + 6n + 1 --> Quadratic Equation
@@ -52,7 +52,7 @@ public class TimeComplexity {
          * Big O(n^2)
          */
 
-        /**
+        /*
          * O(Log(n))
          *
          * log n

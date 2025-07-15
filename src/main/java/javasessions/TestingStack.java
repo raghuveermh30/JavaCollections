@@ -22,7 +22,7 @@ public class TestingStack {
         TestingStack obj = new TestingStack();
         obj.m1();
 
-        /**
+        /*
          *
          * Stack memory will allocate and deallocate
          *

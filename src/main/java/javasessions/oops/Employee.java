@@ -2,7 +2,7 @@ package javasessions.oops;
 
 public class Employee {
 
-    /**
+    /*
      * Class: Category/template/blueprint
      * Object: is a physical Entity created from the class
      * <p>

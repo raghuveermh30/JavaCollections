@@ -6,7 +6,7 @@ public class ArraysConcept {
 
     public static void main(String[] args) {
 
-        /**
+        /*
          * Arrays is set of Data
          * Arrays will store the similar type of data
          * Array will be allocating the continous memory allocation
@@ -25,7 +25,7 @@ public class ArraysConcept {
          * Arrays.toString will print all the values of the array
          */
 
-        /**
+        /*
          * Two Major Limitations
          * 1. Size is Fixed
          * 2. Can Store similar data types: To Overcome this, we need to use Object Array but still it is a Static Array
@@ -89,7 +89,7 @@ public class ArraysConcept {
         p[2] = 200;
         p[0] = 'a'; //97
         System.out.println(p[1]); //100
-        System.out.println(p[0]); //0
+        System.out.println(p[0]); //97
         /*
        The maximum value is 2 --> p[2]
         System.out.println(p[3]); // ArrayIndexOutOfBoundexception

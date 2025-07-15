@@ -6,7 +6,7 @@ public class DataTypesConcept {
 
         //DataType -> Type of data, it could be anything.
 
-        /**
+        /*
          *  1. Premetive Data Type -> all are reserved data types
          *  Keywords will never start with the capital
          *  //Integral Value
@@ -96,7 +96,7 @@ public class DataTypesConcept {
         boolean bl = false;
         System.out.println(bl);
 
-        /**
+        /*
          * Before . in float we can use upto 39 digits
          * Before . in double we can use upto 309 digits
          *

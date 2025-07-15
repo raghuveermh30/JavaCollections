@@ -12,7 +12,7 @@ public class Loops {
         System.out.println(3);
         System.out.println(10);
 
-        /**
+        /*
          * Whenever we have repetative task, in that case we need to use links
          * In the applications, How many footer Links are there
          */
@@ -85,7 +85,7 @@ public class Loops {
             System.out.println(d);
         }
 
-        /**
+        /*
          * When to use while loop?
          * When Number of iterations are not fixed, then use while loop
          * Calendar Handling will be done in Selenium
@@ -96,7 +96,7 @@ public class Loops {
          * Carsoules: There is no fixed time to find the element in the ecommerce
          */
 
-        /**
+        /*
          * When to use For Loop?
          * When Number of Iterations are Fixed
          * Month Dropdown --> 1 to 12

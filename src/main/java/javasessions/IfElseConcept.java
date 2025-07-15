@@ -85,7 +85,7 @@ public class IfElseConcept {
             System.out.println("Please pass the correct browser: " + browser);
         }*/
 
-        /**
+        /*
          * If we use multiple if and else code then unneccssary all the if blocks will be executed and it is a performance issue
          * The Last else loop also it will be executed.
          * To avoid this, we need to use the else if block
@@ -103,7 +103,7 @@ public class IfElseConcept {
             System.out.println("Please pass the correct browser: " + browser);
         }
 
-        /**
+        /*
          * In the above example as well, suppose if the value is IE, still all the conditions will be checked in the above blocks will be executed and it is a performance issue
          * To solve this Switch case will come into picture
          *
