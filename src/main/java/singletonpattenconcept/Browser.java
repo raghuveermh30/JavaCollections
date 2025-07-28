@@ -12,6 +12,7 @@ public class Browser implements Serializable, Cloneable {
      * This is useful when exactly one object is needed to coordinate actions across the system.
      * The Singleton pattern ensures that a class has only one instance and provides a global point of access to that instance.
      * Create the object at single time
+     * The purpose of Singleton Pattern is to control the object creation, limiting the number of objects to one only.
      */
 
     //1. Private Static instance of the class
@@ -19,7 +20,7 @@ public class Browser implements Serializable, Cloneable {
 
     //2. Private Constructor to prevent the instantiation
     private Browser() {
-        if (browser != null) { //handling reflection attack
+       if (browser != null) { //handling reflection attack
             throw new IllegalArgumentException("Object already Exist"); //
         }
     }
@@ -28,9 +29,9 @@ public class Browser implements Serializable, Cloneable {
 
     // To achieve Multi-threading, we need to add Synchronized keyword
     public static Browser getInstance() {
-        if (browser == null) {
+        if (browser == null) { // Double-checked synchronization. Performance is improved
             synchronized (Browser.class) {
-                if (browser == null) {
+                if (browser == null) {  // Check again to avoid multiple threads creating multiple instances
                     browser = new Browser();
                 }
             }
