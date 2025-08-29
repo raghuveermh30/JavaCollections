@@ -7,9 +7,9 @@ public class Car {
     protected String color;
     private String chasisNum;
 
-    /**
+    /*
      * There is no private class but we can create the private, public and protected constructor
-     * <p>
+     *
      * Protected method also can be overridden
      *
      * Protected constructor cannot be accessed from different package parent class

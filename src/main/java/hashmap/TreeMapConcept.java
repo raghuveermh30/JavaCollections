@@ -9,7 +9,7 @@ public class TreeMapConcept {
 
     public static void main(String[] args) {
 
-        /* TreeMap is a part of Java Collections Framework and it implements the Map interface.
+        /* TreeMap is a part of Java Collections Framework and it implements the Sorted Map interface.
          * TreeMap is a Red-Black tree based implementation of Map interface.
          * TreeMap is used to store key-value pairs in sorted order based on keys.
          * TreeMap is not synchronized, so it is not thread-safe.
@@ -26,26 +26,29 @@ public class TreeMapConcept {
 
         TreeMap<Integer, String> treeMap = new TreeMap<>();
         treeMap.put(1000, "Tom");
-        treeMap.put(2000, "Tom");
-        treeMap.put(1300, "Tom");
-        treeMap.put(1900, "Tom");
-        treeMap.put(3200, "Tom");
+        treeMap.put(2000, "Peter");
+        treeMap.put(1300, "Steve");
+        treeMap.put(1900, "Naveen");
+        treeMap.put(3200, "Roshan");
 
         System.out.println(treeMap);
         treeMap.forEach((K, V) -> System.out.println("Key " + K + " value " + V));
-        System.out.println("Last Key " + treeMap.lastKey());
-        System.out.println("First Key " + treeMap.firstKey());
 
+        System.out.println("Highest Key " + treeMap.lastKey());
+        System.out.println("Lowest Key " + treeMap.firstKey());
+
+        //Get all the keys less than 3000
         Set<Integer> keysLessThan3k = treeMap.headMap(3000).keySet();
         System.out.println(keysLessThan3k);
 
+        //Get all the keys greater than 3000
         Set<Integer> keysGreaterThan3k = treeMap.tailMap(3000).keySet();
         System.out.println(keysGreaterThan3k);
 
         System.out.println("Printing in Ascending Order");
         TreeMap<String, Integer> userMap = new TreeMap<>();
         userMap.put("James", 100);
-        userMap.put("Lary", 200);
+        userMap.put("Larry", 200);
         userMap.put("Paul", 400);
         userMap.put("Tend", 50);
         userMap.put("Abi", 90);

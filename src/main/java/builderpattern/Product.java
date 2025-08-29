@@ -106,6 +106,7 @@ public class Product {
     }
 
     public static class ProductBuilder {
+
         //Required Fields
         private String name;
         private double price;

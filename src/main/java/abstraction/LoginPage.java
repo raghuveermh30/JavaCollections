@@ -6,12 +6,12 @@ public class LoginPage extends Page {
         System.out.println("Login Page Constructor..this is default constructor");
     }
 
-    public LoginPage(int a ) {
-        System.out.println("Login Page Constructor..this is default constructo.."+a);
+    public LoginPage(int a) {
+        System.out.println("Login Page Constructor..this is default constructor.." +a);
     }
 
     public LoginPage(int a, int b) {
-        System.out.println("Login Page Constructor..this is default constructo.."+(a+b));
+        System.out.println("Login Page Constructor..this is default constructor.." +(a+b));
     }
 
     @Override

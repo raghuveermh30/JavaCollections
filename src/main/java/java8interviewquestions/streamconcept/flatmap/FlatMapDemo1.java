@@ -28,7 +28,7 @@ public class FlatMapDemo1 {
         finalListInt1.forEach(s -> System.out.println(s));
         System.out.println("******************");
 
-        List<Integer> finalListInt2 = finalList.    stream().flatMap(x -> x.stream().map(n -> n + 2).filter(n -> n % 2 == 0)).collect(Collectors.toList());
+        List<Integer> finalListInt2 = finalList.stream().flatMap(x -> x.stream().map(n -> n + 2).filter(n -> n % 2 == 0)).collect(Collectors.toList());
         finalListInt2.forEach(s -> System.out.println(s));
     }
 }

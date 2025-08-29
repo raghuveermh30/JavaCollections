@@ -18,7 +18,7 @@ public interface USMedical extends WHO{
      * Final methods are abstract in Interface and it is not allowed in the interface
      * Multiple and Multi-Level interface can be achievable
      * same default methods in the many interfaces that is not allowed
-     * cannot create the constructor of the interfacce
+     * cannot create the constructor of the interface
      * In interface no need to write the abstract keyword
      * In interface we can acheive 100% abstarction
      * Interface cannot allow Parent as a class

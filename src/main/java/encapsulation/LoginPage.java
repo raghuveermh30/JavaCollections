@@ -27,7 +27,7 @@ public class LoginPage {
     }
 
     public void doLogin(String userName, String pwd) {
-        System.out.println("Enter the username " + userName);
+//        System.out.println("Enter the username " + userName);
         System.out.println("Enter the password " + pwd);
         System.out.println("click on login button");
         System.out.println("user is logged in");

@@ -16,8 +16,10 @@ public class Demo1 {
         List<Integer> distinctList = integersList.stream().distinct().collect(Collectors.toList());
         distinctList.forEach(s -> System.out.println(s));
         System.out.println("*******************");
+
         integersList.stream().collect(Collectors.toSet()).forEach(System.out::println);
         System.out.println("*******************");
+
         integersList.stream().distinct().forEach(s -> System.out.println(s));
         System.out.println("*******************");
 

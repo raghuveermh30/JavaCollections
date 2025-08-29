@@ -31,8 +31,8 @@ public class HashMapCompare {
 
         //2. Compare hashmaps for the same Keys: keySet();
         System.out.println(map1.keySet().equals(map2.keySet())); //true
-        System.out.println(map1.keySet().equals(map3.keySet())); //true
-        System.out.println(map3.get(3));
+        System.out.println(map1.keySet().equals(map3.keySet())); //true because keys are same and duplicate keys are not allowed
+        System.out.println(map3.get(3)); //D because latest value will be considered
 
         //3. Find out the Extra Keys:
         HashMap<Integer, String> map4 = new HashMap<>();
@@ -65,6 +65,9 @@ public class HashMapCompare {
         map7.put(3, "C");
         map7.put(4, "C");
 
+        //Compare the Values of the maps -> 1. Duplicate values are allowed
+        //                                  2. Duplicate values are not allowed
+
         //1. Duplicate values are allowed: using ArrayList
         System.out.println(new ArrayList<>(map5.values()).equals(new ArrayList<>(map6.values()))); //true
         System.out.println(new ArrayList<>(map5.values()).equals(new ArrayList<>(map7.values()))); //false
@@ -73,6 +76,7 @@ public class HashMapCompare {
         //1. Duplicate values are not allowed: using HashSet
         System.out.println(new HashSet<>(map5.values()).equals(new HashSet<>(map6.values()))); //true
         System.out.println(new HashSet<>(map5.values()).equals(new HashSet<>(map7.values()))); //true
+        //Last 'C' value is not considered because Set will not allow duplicate values
 
 
 

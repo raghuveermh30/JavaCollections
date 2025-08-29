@@ -31,9 +31,9 @@ public class HashMapToArrayList {
         }
         System.out.println("************");
         //Convert the values into the ArrayList
-        List<Integer> companyNamesList1 = new ArrayList<>(compMap.values());
-        System.out.println("Company Employee Size = " + companyNamesList1.size());
-        for (Integer t : companyNamesList1) {
+        List<Integer> employeeCountList = new ArrayList<>(compMap.values());
+        System.out.println("Company Employee Size = " + employeeCountList.size());
+        for (Integer t : employeeCountList) {
             System.out.println(t);
         }
     }

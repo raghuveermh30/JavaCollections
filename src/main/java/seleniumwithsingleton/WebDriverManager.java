@@ -8,9 +8,9 @@ import org.openqa.selenium.safari.SafariDriver;
 
 public class WebDriverManager {
 
-    private static volatile WebDriverManager instace;
+    private static volatile WebDriverManager instance;
 
-    private static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
+    private static final ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
 
     //Thread Local Driver will give every local copy of each and every thread and thread will be used for driver and it can use for any action
     //this will help me proper execution in Parallel Execution
@@ -39,22 +39,28 @@ public class WebDriverManager {
         }
     }
 
-
+    /*
+     * This method will return the singleton instance of WebDriverManager.
+     * If the driver is not initialized, it will initialize it with the specified browser.
+     *
+     * @param browser - The browser type to initialize (e.g., "chrome", "firefox", "edge", "safari").
+     * @return The singleton instance of WebDriverManager.
+     */
     public static WebDriverManager getInstance(String browser) {
 
-        if (instace == null) {
+        if (instance == null) {
             synchronized (WebDriverManager.class) {
-                if (instace == null) {
-                    instace = new WebDriverManager();
+                if (instance == null) {
+                    instance = new WebDriverManager();
                 }
             }
         }
 
         if (tlDriver.get() == null) {
-            instace.initDriver(browser);
+            instance.initDriver(browser);
         }
 
-        return instace;
+        return instance;
     }
 
     public WebDriver getDriver() {

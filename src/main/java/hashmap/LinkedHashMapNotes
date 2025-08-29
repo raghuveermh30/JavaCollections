@@ -1,0 +1,14 @@
+1. LinkedHashMap Overview:
+      - LinkedHashMap extends HashMap and maintains a doubly linked list to preserve insertion order.
+      - It offers predictable iteration order, which is the order in which keys were inserted.
+      - Provides a constructor to maintain access order, useful for implementing LRU (Least Recently Used) caches.
+
+2. Internal Working of LinkedHashMap:
+     - Inherits the hashing mechanism from HashMap.
+     - Maintains a doubly linked list running through all its entries to preserve the order.
+     - Each entry maintains references to the next and previous entries.
+
+3. Performance Considerations:
+     - Both HashMap and LinkedHashMap have similar performance for basic operations like get and put.
+     - LinkedHashMap may have a slight overhead due to the maintenance of the linked list.
+
