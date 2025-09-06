@@ -9,8 +9,8 @@ import java.util.function.Predicate;
 public class Demo1 {
 
     public static void main(String[] args) {
-        /**
-         * Consumer will alwyas take one argument
+        /*
+         * Consumer will always take one argument
          * It doesn't return any value
          *
          */
@@ -20,7 +20,7 @@ public class Demo1 {
         c.accept("Welcome");
         System.out.println("******");
 
-        //Example on Predicate, Function and Conumer
+        //Example on Predicate, Function and Consumer
         //Create Multiple Employee objects and store all the emp objects in the array list. Based on the Salary, Want to calculate the Bonus
         //Once we calculate the Bonus then verify the Bonus is >5000 then Print all the details of Employee
 

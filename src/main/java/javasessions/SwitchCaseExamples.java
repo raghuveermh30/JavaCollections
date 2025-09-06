@@ -33,6 +33,8 @@ public class SwitchCaseExamples {
                 break;
             default:
                 System.out.println("Please provide the correct.." + browser);
+
+
         }
 
         /*

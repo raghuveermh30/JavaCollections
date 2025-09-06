@@ -34,14 +34,14 @@ public class StreamsMethods2 {
         vehicleList2.forEach(s -> System.out.println(s));
         System.out.println("**********************");
 
-        /* Key Concepts of sorted() in Java Streams
-         * 1. Intermediate Operation: sorted() is an intermediate operation, meaning it returns a new stream and does not modify the original stream.
-         * 2. Natural Order: By default, sorted() sorts elements in their natural order (ascending order for numbers and lexicographical order for strings).
-         * 3. Custom Comparator: You can provide a custom comparator to sort elements in a specific order, such as descending order or based on specific criteria.
-         * 4. Stability: The sorted() operation is stable, meaning that if two elements are equal, their relative order in the original stream is preserved in the sorted stream.
-         * 5. Performance: Sorting can be computationally expensive, especially for large streams, so it's important to consider performance implications when using sorted().
-         * 6. Terminal Operation: sorted() is not a terminal operation; it can be followed by other stream operations like filter(), map(), or collect().
-         */
+            /* Key Concepts of sorted() in Java Streams
+             * 1. Intermediate Operation: sorted() is an intermediate operation, meaning it returns a new stream and does not modify the original stream.
+             * 2. Natural Order: By default, sorted() sorts elements in their natural order (ascending order for numbers and lexicographical order for strings).
+             * 3. Custom Comparator: You can provide a custom comparator to sort elements in a specific order, such as descending order or based on specific criteria.
+             * 4. Stability: The sorted() operation is stable, meaning that if two elements are equal, their relative order in the original stream is preserved in the sorted stream.
+             * 5. Performance: Sorting can be computationally expensive, especially for large streams, so it's important to consider performance implications when using sorted().
+             * 6. Terminal Operation: sorted() is not a terminal operation; it can be followed by other stream operations like filter(), map(), or collect().
+             */
 
         List<Person> personList = Arrays.asList(
                 new Person("Alice", 30),

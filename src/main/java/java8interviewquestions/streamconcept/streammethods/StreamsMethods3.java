@@ -9,7 +9,7 @@ public class StreamsMethods3 {
 
     public static void main(String[] args) {
 
-        //anyMatch() -> this will return anything
+        // anyMatch() -> this will return anything
         // allMatch()  --> this will return boolean value, suppose if the element is matching with all the elements in the string then it will return true
         // noneMatch()
 

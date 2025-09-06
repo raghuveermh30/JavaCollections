@@ -7,9 +7,21 @@ public class EnumSetConcepts {
 
     /*
      * Its not synchronized
+     * It works Very Fast
+     * Constant time performance for the basic operations (add, remove, contains and size)
+     * All the methods are implemented using the bitwise arthematic operations
+     * It is the specialized Set implementation for the enum types
+     * It is the implementation of Set interface
+     * It is a part of Java Collections Framework
+     * It is used to store the enum values
+     * It maintains the insertion order
+     * It doesn't allow the duplicate values
+     * Null Values are not allowed
+     * It is better for the search operations
+     * It is not suitable for the frequent insertion and deletion operations
+     * It is not suitable for the random access, Bcz it doesn't provide the index numbers
      * Its highly performance java collection member
      * faster than HashSet
-     * All the methods are implemented using bitwise arthematic operations
      */
 
     enum Lang {
@@ -22,6 +34,7 @@ public class EnumSetConcepts {
 
     public static void main(String[] args) {
 
+        //Create a Full EnumSet
         EnumSet<Lang> enumSet = EnumSet.allOf(Lang.class);
         System.out.println(enumSet);
 
@@ -33,10 +46,11 @@ public class EnumSetConcepts {
         EnumSet<Lang> enumSet2 = EnumSet.range(Lang.JAVA, Lang.PYTHON);
         System.out.println(enumSet2);
 
-        //of method
+        //of method -> Single Enum Set
         EnumSet<Lang> csharpEnum = EnumSet.of(Lang.CSHARP);
         System.out.println(csharpEnum);
 
+        //of method -> Multiple Enum Set
         EnumSet<Lang> multipleEnum = EnumSet.of(Lang.CSHARP, Lang.RUBY, Lang.JAVA);
         System.out.println(multipleEnum);
 

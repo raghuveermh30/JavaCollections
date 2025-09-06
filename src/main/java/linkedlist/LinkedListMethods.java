@@ -27,9 +27,6 @@ public class LinkedListMethods {
          * It is a part of Java Collections Framework
          */
 
-
-
-
         LinkedList<String> namesList = new LinkedList<>();
         System.out.println(namesList.size()); //0 --> Physical Capacity is 0
         namesList.add("Raghu");

@@ -107,7 +107,7 @@ public class TreeMapConcept {
 
         //ceilingKey(K key): Returns the least key greater than or equal to the given key.
 
-        //floorKey(key): Returns the largest key <= given key.
+        //floorKey(key): Returns the smallest key <= given key.
 
         TreeMap<Integer, String> treeMap6 = new TreeMap<>();
         treeMap6.put(1, "One");

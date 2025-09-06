@@ -40,7 +40,7 @@ public class GenericArrayList {
 
         System.out.println("********");
         //3 Using Lambda function
-        stringArrayList.stream().forEach( ele -> System.out.println(ele));
+//        stringArrayList.stream().forEach( ele -> System.out.println(ele));
 
         System.out.println("********");
         //4 Using Iterator

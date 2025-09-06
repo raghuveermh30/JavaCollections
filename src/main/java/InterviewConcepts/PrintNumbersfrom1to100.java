@@ -1,7 +1,8 @@
 package InterviewConcepts;
 
 public class PrintNumbersfrom1to100 {
-    static int i = 1;
+
+
 
     public static void main(String[] args) {
         printNo(100);

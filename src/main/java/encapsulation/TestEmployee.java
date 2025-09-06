@@ -18,7 +18,8 @@ public class TestEmployee {
         //Update - PUT
         employee.setAge(30);
         employee.setSalary(30.33);
-        //Retrive GET
+
+        //Retrieve GET
         System.out.println(employee.getName() + " " + employee.getAge() + " " + employee.getSalary() + " " + employee.isPerm() + " " + employee.getEmpId());
 
         Employee employee1 = new Employee("pooja", 25, 12.33, false, 12345);

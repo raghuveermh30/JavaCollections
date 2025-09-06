@@ -14,7 +14,7 @@ public class HashMapBasics {
          * It stores the value on the basis of Key and Value format.
          * Key cannot be duplicate, it should be unique, But it won;t give any error but it will pick the latest values.
          * Can store N number of Null Values but we can only store one Null key.
-         * Hashmap is not Synchronized or its not Thread Safe.
+         * Hashmap is not Synchronized or it's not Thread Safe.
          * HashTable is Synchronized or its Thread Safe.
          * HashMap is better than HashTable in terms of performance.
          * HashMap internally uses Hashing Technique to store the values.
