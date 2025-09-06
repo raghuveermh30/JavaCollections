@@ -9,7 +9,7 @@ public class UnaryOperatorInterface {
 
     public static void main(String[] args) {
 
-        /**
+        /*
          * Represents an operation on a single operand/argument that produces a result of the same type as its operand.
          * This is a specialization of Function for the case where the operand and result are of the same type.
          */
@@ -22,7 +22,7 @@ public class UnaryOperatorInterface {
         String res1 = func1.apply("raghuveer");
         System.out.println(res1);
 
-        //FunctionInterfacde
+        //Function Interface
 
         Function<Integer, Integer> func3 = x -> x* 7;
         int res3 = func3.apply(20);

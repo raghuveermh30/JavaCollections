@@ -23,8 +23,5 @@ public class FunctionInterfaceConcept {
         int result = func1.andThen(func2).apply("This is naveen here");
         System.out.println(result);
 
-
-
-
     }
 }

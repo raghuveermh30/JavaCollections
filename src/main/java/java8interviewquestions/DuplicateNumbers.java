@@ -44,7 +44,7 @@ public class DuplicateNumbers {
         System.out.println("***********");
 
         //skip
-        //get first 5 elements in the list and get the sum of them
+        //skipping first 5 elements in the list and get the sum of them
         List<Integer> skList = list.stream().skip(5).collect(Collectors.toList());
         System.out.println("Skipping only first 5 numbers " + skList);
         int sum2 = skList.stream().skip(5).reduce((p, q) -> p + q).get();

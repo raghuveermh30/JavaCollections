@@ -40,7 +40,6 @@ public class MapDemo1 {
         System.out.println("*************");
 
         //Example 3
-
         List<Employee> employeeList = new ArrayList<>();
         employeeList.add(new Employee(123, "Tom", 25000));
         employeeList.add(new Employee(124, "Steve", 30000));

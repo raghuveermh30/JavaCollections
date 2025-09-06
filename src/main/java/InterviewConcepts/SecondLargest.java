@@ -23,11 +23,11 @@ public class SecondLargest {
             // If the element is not equal to largest element
             if (arr[i] != arr[size - 1])
             {
-                System.out.printf("The second largest element is " + arr[i]);
+                System.out.println("The second largest element is " + arr[i]);
                 return;
             }
         }
-        System.out.printf("There is no second largest element");
+        System.out.println("There is no second largest element");
     }
 
 

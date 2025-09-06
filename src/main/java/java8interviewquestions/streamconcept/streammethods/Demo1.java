@@ -37,7 +37,7 @@ public class Demo1 {
         list.forEach(s -> System.out.println(s));
         System.out.println("*******************");
 
-        //cont()
+        //count()
         List<Integer> evenNumList = integersList.stream().filter(n -> n % 2 == 0).collect(Collectors.toList());
         evenNumList.forEach(s -> System.out.println(s));
         System.out.println("Even number count are in the list is " + evenNumList.stream().count());

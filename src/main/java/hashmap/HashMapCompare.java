@@ -18,7 +18,7 @@ public class HashMapCompare {
         map2.put(1, "A");
         map2.put(2, "B");
 
-        HashMap<    Integer, String> map3 = new HashMap<>();
+        HashMap<Integer, String> map3 = new HashMap<>();
         map3.put(1, "C");
         map3.put(2, "A");
         map3.put(3, "B");

@@ -36,13 +36,13 @@ public class GenPactTest {
             }
         }
 
-        String value = "";
-        Character key = null;
+
         Set<String> set = new HashSet<String>();
         Iterator<Character> it = map.keySet().iterator();
+
         while (it.hasNext()) {
-            key = it.next();
-            value = map.get(key).toString();
+            Character key  = it.next();
+            String value = map.get(key).toString();
             set.add(value);
             System.out.println(key + " " + value);
         }
@@ -55,6 +55,5 @@ public class GenPactTest {
 
         String val1 = al.get(al.size() - 2);
         System.out.println("Second Highes value " + val1);
-        Iterator<Character> it2 = map.keySet().iterator();
     }
 }

@@ -2,7 +2,7 @@ package javasessions;
 
 import java.util.Arrays;
 
-public class StatticArrayConcept {
+public class StaticArrayConcept {
 
     public static void main(String[] args) {
 

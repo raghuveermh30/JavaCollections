@@ -9,7 +9,7 @@ public class TreeMapConcept {
 
     public static void main(String[] args) {
 
-        /* TreeMap is a part of Java Collections Framework and it implements the Sorted Map interface.
+        /* TreeMap is a part of Java Collections Framework, and it implements the Sorted Map interface.
          * TreeMap is a Red-Black tree based implementation of Map interface.
          * TreeMap is used to store key-value pairs in sorted order based on keys.
          * TreeMap is not synchronized, so it is not thread-safe.
@@ -107,7 +107,7 @@ public class TreeMapConcept {
 
         //ceilingKey(K key): Returns the least key greater than or equal to the given key.
 
-        //floorKey(key): Returns the largest key <= given key.
+        //floorKey(key): Returns the smallest key <= given key.
 
         TreeMap<Integer, String> treeMap6 = new TreeMap<>();
         treeMap6.put(1, "One");

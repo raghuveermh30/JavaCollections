@@ -21,12 +21,10 @@ public class Car {
         c1.price = 60;
         c1.modelNum = "x3";
 
-
         Car c2 = new Car();
         c2.name = "Audi";
         c2.price = 65;
         c2.modelNum = "Q3";
-
 
         Car c3 = new Car();
         c3.name = "Honda";

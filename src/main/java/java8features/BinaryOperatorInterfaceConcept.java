@@ -21,7 +21,5 @@ public class BinaryOperatorInterfaceConcept {
         int sum1 = func1.apply(30, 40);
         System.out.println(sum1);
 
-
-
     }
 }

@@ -30,7 +30,7 @@ public class ArrayListIterations {
             System.out.println(it.next());
         }
 
-        //3 using Iterator and Java 8   forEachRemaining Method--
+        //3 using Iterator and Java 8 forEachRemaining Method--
         System.out.println("***Print using Iterator and  forEachRemaining method *******");
         it = tvSeriers.iterator();
         it.forEachRemaining(show -> System.out.println(show));

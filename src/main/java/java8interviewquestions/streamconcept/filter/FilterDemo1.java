@@ -3,6 +3,7 @@ package java8interviewquestions.streamconcept.filter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 import java.util.stream.Collectors;
 
 public class FilterDemo1 {
@@ -39,6 +40,7 @@ public class FilterDemo1 {
         List<String> stringList2 = Arrays.asList("Tom", "peter", null, "steve", "Naveen", null, "Vibha", "Veena", "Raghu", null);
         List<String> result = new ArrayList<>();
         result = stringList2.stream().filter(s -> s != null).collect(Collectors.toList());
+        //result = stringList2.stream().filter(Objects::nonNull).collect(Collectors.toList());
         result.forEach(s -> System.out.println(s));
         System.out.println("******************");
 

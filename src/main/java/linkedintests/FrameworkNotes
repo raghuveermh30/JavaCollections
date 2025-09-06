@@ -1,0 +1,40 @@
+my-automation-framework/
+├── src/
+│   ├── main/java/
+│   │   ├── base/          → BaseTest.java (driver setup/teardown)
+│   │   ├── pages/         → Page Object classes
+│   │   ├── utils/         → ReusableUtils, WaitUtils, ScreenshotUtils
+│   │   └── config/        → ConfigReader.java
+│   └── test/java/
+│       ├── tests/         → Actual test classes
+│       └── dataproviders/ → Excel/JSON test data
+├── resources/
+│   ├── config.properties  → URLs, credentials, browser
+│   ├── testng.xml         → Suite configuration
+│   └── testdata/          → Excel, JSON files
+├── reports/               → Extent / Allure reports
+└── pom.xml                → Maven dependencies
+
+
+ Walk me through your Automation Framework
+
+ My framework is built on a Hybrid Framework combining POM + Data-Driven + Keyword-Driven approaches.
+
+ Tools Stack:
+
+ Language: Java 8+
+ Framework: Selenium WebDriver + TestNG
+ Build Tool: Maven
+ Reporting: Extent Reports / Allure
+ API Testing: Rest Assured
+ CI/CD: Jenkins
+ Version Control: Git
+
+ Design Patterns Used:
+
+ Page Object Model (POM)
+ Singleton (WebDriver instance)
+ Factory Pattern (browser factory)
+ Builder Pattern (Rest Assured requests)
+
+ 2️⃣ Selenium WebDriver with Java + Dynamic Elements
